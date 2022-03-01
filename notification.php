@@ -19,7 +19,7 @@ function sendnotification($to, $title, $message, $img)
     );
     if ($img == '') {
         $fields = array(
-            'app_id' => '14ebb802-c8d2-4adf-a4b3-80167ba7beed',
+            'app_id' => '0b618a1d-0f6f-49ec-8c59-61181432bb82',
             "headings" => $headings,
            'include_external_user_ids' => array($to),
             "channel_for_external_user_ids"=> "push",
@@ -31,7 +31,7 @@ function sendnotification($to, $title, $message, $img)
             "id1" => $img
         );
         $fields = array(
-            'app_id' => '14ebb802-c8d2-4adf-a4b3-80167ba7beed',
+            'app_id' => '0b618a1d-0f6f-49ec-8c59-61181432bb82',
             "headings" => $headings,
             'include_external_user_ids' => array($to),
             "channel_for_external_user_ids"=> "push",
@@ -43,7 +43,7 @@ function sendnotification($to, $title, $message, $img)
 
     }
     $headers = array(
-        'Authorization: Basic ZWY5ZmVjM2QtYjQ3My00MmVlLTk1NDQtZjg4OGZhY2I4YWIy',
+        'Authorization: Basic MWJiNGQzNGMtMmFmMi00NGMwLWI5MDItOTlhYWJhNzA5MjNk',
         'Content-Type: application/json; charset=utf-8'
     );
     $ch = curl_init();
